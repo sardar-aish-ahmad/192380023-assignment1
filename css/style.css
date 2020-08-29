@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    font-family: Poppins !important;
+}
+button{
+    
+    font-family: Poppins !important;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    padding: 20px;
+
+
+}
+a{
+    scroll-behavior: smooth;
+    
+}
+
+header nav ul {
+    padding: 18px 0px;
+    margin: 0;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #3a3a3a;
+
+}
+header nav ul li{
+    list-style-type: none;
+
+}
+
+header nav ul li:hover a{
+    background-color: #fff;
+    color: #000;
+    transition: 0.2s all;
+}
+.MainSection{
+    background-image: url('../imgs/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 14% 0;
+}
+.MainSection h1{
+    font-size: 60px;
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.WhiteColor{
+    color: #fff ;
+}
+.TextCenter{
+    text-align: center;
+}
+.BtnDark {
+    padding: 14px 28px;
+    text-transform: capitalize;
+    background-color: #000;
+    border: none;
+    margin-top: 20px;
+    font-size: 18px;
+
+    color: #fff;
+}
+.SubmitBtn{
+    padding: 10px 30px;
+    text-transform: capitalize;
+    background-color: green;
+    border: none;
+    font-size: 17px;
+
+    color: #fff;
+}
+.BtnDark:first-child{
+    margin-right: 5px;
+}
+.BtnDark:hover{
+    background: red;
+    transition: .2s all;
+    cursor: pointer;
+}
+.MarginTop4{
+    margin-top: 4%;
+}
+.CapitalizeText{
+    text-transform: capitalize;
+}
+.BorderBtm h1{
+    display: inline-block;
+    padding: 2% 10%;
+    font-size: 32px;
+    border-bottom: 2px solid #ccc;
+}
+
+.DisplayFlex{
+    display: flex;
+    }
+.HalfWidth{
+        width: 50%;
+        padding: 20px;
+
+    }
+.FullWidth{
+        max-width: 100%;
+
+    }
+.FontWgt400{
+        font-weight: 400;
+
+    }
+.Custom33Width{
+        width: 33%;
+        padding: 20px;
+
+    }
+.Services {
+        background: aliceblue;
+    }
+.input{
+        
+    height: 31px;
+    width:  100%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+
+}
+.TAHeight{
+        height: 70%;
+    }
+.Form{
+        width: 60%;
+        margin: 0 auto;
+    }
+ .MarginBtm20{
+        margin-bottom: 20px;
+}
+.JustifyContent{
+    text-align: justify;
+}
+footer h4{
+        padding:60px 0px;
+        margin:0 ;
+    }
+header , footer{
+    background-color: #3a3a3a;
+}
